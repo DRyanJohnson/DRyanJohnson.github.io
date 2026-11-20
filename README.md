@@ -242,9 +242,9 @@
 
     <!-- Quick Page Jump Links -->
     <nav class="jump-nav">
-      <a href="#about">#about</a>
-      <a href="#projects">#projects</a>
-      <a href="#skills">#skills</a>
+      <a href="about">about</a>
+      <a href="projects">projects</a>
+      <a href="skills">skills</a>
     </nav>
 
     <!-- External & Contact Links -->
