@@ -287,7 +287,6 @@
         <p>
           A 17-scene visual novel built solo in Unity 6 using C# launguage for a campus game jam. I structured branching dialogue with serializable <code>StoryBeat</code> and <code>ChoiceOption</code> classes using <code>enum</code> condition checks and state effects, tracked player strikes and inventory across scenes in a static <code>GameState</code> class, and used coroutines for typewriter text alongside custom 1920&times;1080 Krita art.
         </p>
-        </p>
         <div class="links">
           <a href="https://tackytac.itch.io/never-made-it" target="_blank">Play on itch.io</a>
           <a href="https://github.com/DRyanJohnson/Never-Made-It-Game-C-unity-" target="_blank">View Code on GitHub</a>
