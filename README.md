@@ -264,10 +264,10 @@
     </nav>
 
     <!-- External & Contact Links -->
-    <nav class="external-links">
-      <a href="https://tackytac.itch.io" target="_blank">itch.io &rarr; tackytac</a>
-      <a href="https://github.com/DRyanJohnson" target="_blank">github &rarr; DRyanJohnson</a>
-      <a href="https://www.linkedin.com/in/dryanjohnson/" target="_blank">linkedin &rarr; /in/dryanjohnson</a>
+   <nav class="external-links">
+      <a href="https://tackytac.itch.io" target="_blank">itch.io</a>
+      <a href="https://github.com/DRyanJohnson" target="_blank">github</a>
+      <a href="https://www.linkedin.com/in/dryanjohnson/" target="_blank">linkedin</a>
       <a href="./DJohnson.Resume.2026.pdf" target="_blank">resume.pdf</a>
       <a href="mailto:DRyanJohnson@outlook.com">DRyanJohnson@outlook.com</a>
     </nav>
