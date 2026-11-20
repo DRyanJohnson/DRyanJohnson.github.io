@@ -160,6 +160,12 @@
     border: 1px solid #52b788;
     padding: 6px;
     background: #10241d;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .project:hover .thumb img {
+    border-color: #c77dff;
+    box-shadow: 0 0 14px rgba(199, 125, 255, 0.22);
   }
 
   .details {
@@ -185,6 +191,16 @@
     font-size: 0.96rem;
     color: #d2e0da;
     margin: 0 0 14px;
+  }
+
+  .details code {
+    color: #c77dff !important;
+    background-color: #171226 !important;
+    border: 1px solid #3c2a56;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "Courier New", monospace;
+    font-size: 0.85em;
   }
 
   .links a {
@@ -338,7 +354,7 @@
         <h3>Fox Descend</h3>
         <span class="meta">C# / Unity &bull; Custom 2D Sprites</span>
         <p>
-         A 2D platformer shooter built in Unity using C# within a two-week deadline. I wrote a checkpoint-clamped <code>FlyingMonsterAI</code> state machine for patrolling and projectile attacks, implemented one-way pass-through platforms via <code>Physics2D.IgnoreLayerCollision</code>, and built key-gated doors with <code>UnityEvent</code> triggers, timed <code>DamageZone</code> hazards, and custom 2D sprites.
+          A 2D platformer shooter built in Unity and C# within a two-week deadline. I wrote a checkpoint-clamped <code>FlyingMonsterAI</code> state machine for patrolling and projectile attacks, implemented one-way pass-through platforms via <code>Physics2D.IgnoreLayerCollision</code>, and built key-gated doors with <code>UnityEvent</code> triggers, timed <code>DamageZone</code> hazards, and custom 2D sprites.
         </p>
         <div class="links">
           <a href="https://tackytac.itch.io/fox-descend" target="_blank">Play on itch.io</a>
@@ -346,7 +362,7 @@
         </div>
       </div>
     </article>
-    
+
     <!-- Skills Section -->
     <section id="skills" class="skills-footer">
       <span class="label">Skills &amp; Toolkit</span>
