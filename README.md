@@ -11,6 +11,10 @@
     margin: 0;
   }
 
+  .markdown-body > h1:first-child {
+    display: none;
+  }
+
   .page {
     max-width: 1100px;
     margin: 0 auto;
@@ -83,14 +87,14 @@
   }
 
   .external-links a {
-    color: #e6f0ec;
+    color: #c77dff;
     text-decoration: none;
-    border-bottom: 1px solid #2d6a4f;
+    border-bottom: 1px solid #3c2a56;
     padding-bottom: 4px;
   }
 
   .external-links a:hover {
-    color: #c77dff;
+    color: #e0aaff;
     border-color: #c77dff;
   }
 
@@ -264,7 +268,7 @@
     </nav>
 
     <!-- External & Contact Links -->
-   <nav class="external-links">
+    <nav class="external-links">
       <a href="https://tackytac.itch.io" target="_blank">itch.io</a>
       <a href="https://github.com/DRyanJohnson" target="_blank">github</a>
       <a href="https://www.linkedin.com/in/dryanjohnson/" target="_blank">linkedin</a>
