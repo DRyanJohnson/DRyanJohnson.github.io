@@ -276,7 +276,7 @@
 
     <span id="projects" class="label" style="margin-bottom: 24px; scroll-margin-top: 32px;">Projects</span>
 
-    <!-- Project 1 -->
+    <!-- Project 1 (Art Left, Text Right) -->
     <article class="project">
       <div class="thumb">
         <img src="assets/NeverMadeIt.png" alt="Never Made It Screenshot">
@@ -285,7 +285,7 @@
         <h3>Never Made It</h3>
         <span class="meta">C# / Unity 6 &bull; Krita 2D Art &bull; UWT Fall 2026 Game Jam</span>
         <p>
-          A solo built visual novel developed in Unity 6 and C# for the UWT Fall 2026 Game Jam. I built a 17-scene narrative system via a custom StorySceneController, complete with a main menu, scrolling environmental sign text, a snowfall, smoke particle effect and synchronized background music and audio cues. I also created and formatted all 1920×1080 2D art assets in Krita and shipped a playable WebGL build to itch.io within the jam timeframe.
+          A 17-scene visual novel built solo in Unity 6 using C# launguage for a campus game jam. I wrote a custom <code>StorySceneController</code> script to manage scene transitions, scrolling dialogue text, particle effects, and audio cues, and drew all the 1920&times;1080 backgrounds and characters in Krita.
         </p>
         <div class="links">
           <a href="https://tackytac.itch.io/never-made-it" target="_blank">Play on itch.io</a>
@@ -294,43 +294,7 @@
       </div>
     </article>
 
-    <!-- Project 2 -->
-    <article class="project flip">
-      <div class="thumb">
-        <img src="assets/FoxDescend2dgame.png" alt="Fox Descend Screenshot">
-      </div>
-      <div class="details">
-        <h3>Fox Descend</h3>
-        <span class="meta">C# / Unity &bull; Custom 2D Sprites</span>
-        <p>
-          A 2D action shooter built in Unity and C# within a strict two-week course deadline. I scripted 2D combat and projectile mechanics for both the player and enemy types, handling trajectories, speed, and hit detection, alongside a level-progression system that unlocks the exit trigger only after all enemies are defeated. I also built a real-time HUD kill counter with Unity UI and created and animated custom 2D sprites for the player, enemies, and environments, which taught me how to scope and ship a complete WebGL build under a tight schedule.
-        </p>
-        <div class="links">
-          <a href="https://tackytac.itch.io/fox-descend" target="_blank">Play on itch.io</a>
-          <a href="https://github.com/DRyanJohnson/Game-code/tree/main/FoxDescend" target="_blank">View Code on GitHub</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Project 3 -->
-    <article class="project">
-      <div class="thumb">
-        <img src="assets/hoverboardandrobotsgame.png" alt="Hoverboard and Robots Screenshot">
-      </div>
-      <div class="details">
-        <h3>Hoverboard &amp; Robots</h3>
-        <span class="meta">C# / Unity &bull; Blender 3D Models</span>
-        <p>
-          A 3D "HoverBoard"-action game built in Unity and C# within a three-week course deadline. I created a custom hoverboard controller and manager system supporting WASD movement, mouse-based rotation, mounting and dismounting toggles, and synchronized respawn logic tied to player health. To support seamless state transitions between on-foot and mounted modes, I refactored core player locomotion, camera tracking, and health scripts, and programmed state-based enemy AI that shifts targeting priority from the player to the hoverboard when mounted. Building out the 3D environment props and dynamic controls UI reinforced clean state management across multiple interacting scripts.
-        </p>
-        <div class="links">
-          <a href="https://tackytac.itch.io/hoverboard-robots" target="_blank">Play on itch.io</a>
-          <a href="https://github.com/DRyanJohnson/Game-code/tree/main/Hoverboard%26Robots" target="_blank">View Code on GitHub</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Project 4 -->
+    <!-- Project 2 (Text Left, Art Right) -->
     <article class="project flip">
       <div class="thumb">
         <img src="assets/FarmSimulatorJava.png" alt="Farm Simulator Screenshot">
@@ -339,7 +303,7 @@
         <h3>Farm Simulator</h3>
         <span class="meta">Java &bull; OOP &amp; Collections</span>
         <p>
-          A team-built, command-line farming simulation game built in Java using object-oriented classes (<code>Acre</code>, <code>Fish</code>) and collections (<code>HashMap</code>, <code>TreeMap</code>, <code>ArrayList</code>). Players buy land plots, plant and harvest 14 seasonal crops across four seasons, fish for extra gold, build fences against overnight wildlife attacks, apply fertilizer, and manage daily action points and yearly taxes. Coordinating multiple daily game systems and collaborating in a four-person team taught me how to structure game state cleanly and handle invalid user input without crashing the loop.
+          A command-line farming game built in Java with a four-person team. We used custom classes (<code>Acre</code>, <code>Fish</code>) and Java collections (<code>HashMap</code>, <code>TreeMap</code>, <code>ArrayList</code>) to track 14 seasonal crops, inventory, and daily actions, while handling input validation so bad console entries wouldn't crash the loop.
         </p>
         <div class="links">
           <a href="https://github.com/DRyanJohnson/Farm-Simulator-Java" target="_blank">View Source Code on GitHub</a>
@@ -347,6 +311,42 @@
       </div>
     </article>
 
+    <!-- Project 3 (Art Left, Text Right) -->
+    <article class="project">
+      <div class="thumb">
+        <img src="assets/hoverboardandrobotsgame.png" alt="Hoverboard and Robots Screenshot">
+      </div>
+      <div class="details">
+        <h3>Hoverboard &amp; Robots</h3>
+        <span class="meta">C# / Unity &bull; Blender 3D Models</span>
+        <p>
+          A 3D action game created in Unity within a three-week class deadline. I scripted the hoverboard mounting logic, camera tracking, and player movement in C#, programmed enemy AI that changes targets when you mount the board, and modeled the 3D environment props in Blender.
+        </p>
+        <div class="links">
+          <a href="https://tackytac.itch.io/hoverboard-robots" target="_blank">Play on itch.io</a>
+          <a href="https://github.com/DRyanJohnson/Game-code/tree/main/Hoverboard%26Robots" target="_blank">View Code on GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 4 (Text Left, Art Right) -->
+    <article class="project flip">
+      <div class="thumb">
+        <img src="assets/FoxDescend2dgame.png" alt="Fox Descend Screenshot">
+      </div>
+      <div class="details">
+        <h3>Fox Descend</h3>
+        <span class="meta">C# / Unity &bull; Custom 2D Sprites</span>
+        <p>
+         A 2D top-down shooter built in Unity and C# in two weeks. I programmed projectile firing, collision hit detection, a live UI kill counter, and exit doors that stay locked until every enemy in the room is cleared, along with custom animated 2D sprites.
+        </p>
+        <div class="links">
+          <a href="https://tackytac.itch.io/fox-descend" target="_blank">Play on itch.io</a>
+          <a href="https://github.com/DRyanJohnson/Game-code/tree/main/FoxDescend" target="_blank">View Code on GitHub</a>
+        </div>
+      </div>
+    </article>
+    
     <!-- Skills Section -->
     <section id="skills" class="skills-footer">
       <span class="label">Skills &amp; Toolkit</span>
