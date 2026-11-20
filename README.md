@@ -320,7 +320,7 @@
         <h3>Hoverboard &amp; Robots</h3>
         <span class="meta">C# / Unity &bull; Blender 3D Models</span>
         <p>
-          A 3D action game created in Unity within a three-week class deadline. I scripted the hoverboard mounting logic, camera tracking, and player movement in C#, programmed enemy AI that changes targets when you mount the board, and modeled the 3D environment props in Blender.
+          A 3D action game created in Unity within a three-week deadline. I wrote a <code>HoverboardMountManager</code> that swaps between <code>CharacterController</code> movement and <code>Rigidbody</code> hoverboard physics, uses terrain height sampling to place the player safely on dismount, and pairs <code>NavMeshAgent</code> ground enemies with raycast sight-cone detection (<code>HoverbotSight</code>) alongside custom Blender 3D props.
         </p>
         <div class="links">
           <a href="https://tackytac.itch.io/hoverboard-robots" target="_blank">Play on itch.io</a>
