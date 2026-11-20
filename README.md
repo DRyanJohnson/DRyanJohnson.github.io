@@ -285,7 +285,8 @@
         <h3>Never Made It</h3>
         <span class="meta">C# / Unity 6 &bull; Krita 2D Art &bull; UWT Fall 2026 Game Jam</span>
         <p>
-          A 17-scene visual novel built solo in Unity 6 using C# launguage for a campus game jam. I wrote a custom <code>StorySceneController</code> script to manage scene transitions, scrolling dialogue text, particle effects, and audio cues, and drew all the 1920&times;1080 backgrounds and characters in Krita.
+          A 17-scene visual novel built solo in Unity 6 using C# launguage for a campus game jam. I structured branching dialogue with serializable <code>StoryBeat</code> and <code>ChoiceOption</code> classes using <code>enum</code> condition checks and state effects, tracked player strikes and inventory across scenes in a static <code>GameState</code> class, and used coroutines for typewriter text alongside custom 1920&times;1080 Krita art.
+        </p>
         </p>
         <div class="links">
           <a href="https://tackytac.itch.io/never-made-it" target="_blank">Play on itch.io</a>
