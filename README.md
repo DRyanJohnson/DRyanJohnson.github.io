@@ -358,8 +358,3 @@
   </main>
 
 </div>
-## Resume & Contact
-
-| Resume | Contact |
-| :--- | :--- |
-| 📄 **[View / Download Resume (PDF)](./DJohnson.Resume.2026.pdf)** | **Email:** [DRyanJohnson@outlook.com](mailto:DRyanJohnson@outlook.com)
