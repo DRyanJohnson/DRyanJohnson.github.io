@@ -338,7 +338,7 @@
         <h3>Fox Descend</h3>
         <span class="meta">C# / Unity &bull; Custom 2D Sprites</span>
         <p>
-         A 2D top-down shooter built in Unity and C# in two weeks. I programmed projectile firing, collision hit detection, a live UI kill counter, and exit doors that stay locked until every enemy in the room is cleared, along with custom animated 2D sprites.
+         A 2D platformer shooter built in Unity using C# within a two-week deadline. I wrote a checkpoint-clamped <code>FlyingMonsterAI</code> state machine for patrolling and projectile attacks, implemented one-way pass-through platforms via <code>Physics2D.IgnoreLayerCollision</code>, and built key-gated doors with <code>UnityEvent</code> triggers, timed <code>DamageZone</code> hazards, and custom 2D sprites.
         </p>
         <div class="links">
           <a href="https://tackytac.itch.io/fox-descend" target="_blank">Play on itch.io</a>
