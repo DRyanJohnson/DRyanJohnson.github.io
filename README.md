@@ -4,8 +4,8 @@
   }
 
   body, .markdown-body {
-    background-color: #0b1914 !important;
-    color: #e6f0ec !important;
+    background-color: #19100b !important;
+    color: #f3ece7 !important;
     font-family: Georgia, "Times New Roman", serif;
     line-height: 1.65;
     margin: 0;
@@ -30,14 +30,14 @@
     flex-shrink: 0;
     position: sticky;
     top: 32px;
-    border-right: 1px solid #2d6a4f;
+    border-right: 1px solid #6b3b1e;
     padding-right: 32px;
   }
 
   .sidebar h1 {
     font-size: 2rem;
     line-height: 1.15;
-    color: #95d5b2 !important;
+    color: #f4a261 !important;
     border: none !important;
     margin-bottom: 6px;
     font-weight: normal;
@@ -46,7 +46,7 @@
   .subtitle {
     font-family: "Courier New", monospace;
     font-size: 0.9rem;
-    color: #c77dff;
+    color: #95d5b2;
     display: block;
     margin-bottom: 22px;
   }
@@ -58,23 +58,23 @@
     flex-wrap: wrap;
     margin-bottom: 24px;
     padding-bottom: 16px;
-    border-bottom: 1px dashed #2d6a4f;
+    border-bottom: 1px dashed #6b3b1e;
     font-family: "Courier New", monospace;
     font-size: 0.85rem;
   }
 
   .jump-nav a {
-    color: #95d5b2;
+    color: #f4a261;
     text-decoration: none;
-    background: #122921;
+    background: #261811;
     padding: 3px 8px;
-    border: 1px solid #2d6a4f;
+    border: 1px solid #6b3b1e;
   }
 
   .jump-nav a:hover {
-    color: #0b1914;
-    background: #c77dff;
-    border-color: #c77dff;
+    color: #19100b;
+    background: #95d5b2;
+    border-color: #95d5b2;
   }
 
   .external-links {
@@ -87,21 +87,21 @@
   }
 
   .external-links a {
-    color: #c77dff;
+    color: #95d5b2;
     text-decoration: none;
-    border-bottom: 1px solid #3c2a56;
+    border-bottom: 1px solid #2d6a4f;
     padding-bottom: 4px;
   }
 
   .external-links a:hover {
-    color: #e0aaff;
-    border-color: #c77dff;
+    color: #b7e4c7;
+    border-color: #95d5b2;
   }
 
   .tools {
     font-family: "Courier New", monospace;
     font-size: 0.82rem;
-    color: #b7e4c7;
+    color: #e6d5c8;
     line-height: 1.7;
   }
 
@@ -120,13 +120,13 @@
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: #c77dff;
+    color: #95d5b2;
     display: block;
     margin-bottom: 12px;
   }
 
   .about {
-    border-left: 3px solid #c77dff;
+    border-left: 3px solid #95d5b2;
     padding-left: 20px;
     margin-bottom: 52px;
     scroll-margin-top: 32px;
@@ -134,7 +134,7 @@
 
   .about p {
     font-size: 1.02rem;
-    color: #d8e6df;
+    color: #ebe0d8;
     margin: 0;
   }
 
@@ -145,7 +145,7 @@
     align-items: center;
     margin-bottom: 52px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #1b4332;
+    border-bottom: 1px solid #432514;
   }
 
   .project.flip {
@@ -161,15 +161,15 @@
     width: 100%;
     height: auto;
     display: block;
-    border: 1px solid #52b788;
+    border: 1px solid #b56534;
     padding: 6px;
-    background: #10241d;
+    background: #24160f;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
   }
 
   .project:hover .thumb img {
-    border-color: #c77dff;
-    box-shadow: 0 0 14px rgba(199, 125, 255, 0.22);
+    border-color: #95d5b2;
+    box-shadow: 0 0 14px rgba(149, 213, 178, 0.22);
   }
 
   .details {
@@ -186,21 +186,21 @@
   .meta {
     font-family: "Courier New", monospace;
     font-size: 0.8rem;
-    color: #74c69d;
+    color: #e79e65;
     display: block;
     margin-bottom: 12px;
   }
 
   .details p {
     font-size: 0.96rem;
-    color: #d2e0da;
+    color: #e5d8cf;
     margin: 0 0 14px;
   }
 
   .details code {
-    color: #c77dff !important;
-    background-color: #171226 !important;
-    border: 1px solid #3c2a56;
+    color: #95d5b2 !important;
+    background-color: #10241d !important;
+    border: 1px solid #2d6a4f;
     padding: 2px 6px;
     border-radius: 4px;
     font-family: "Courier New", monospace;
@@ -210,25 +210,13 @@
   .links a {
     font-family: "Courier New", monospace;
     font-size: 0.88rem;
-    color: #c77dff;
+    color: #95d5b2;
     text-decoration: underline;
     margin-right: 16px;
   }
 
   .links a:hover {
-    color: #95d5b2;
-  }
-
-  .skills-footer {
-    padding-top: 10px;
-    scroll-margin-top: 32px;
-  }
-
-  .skills-footer p {
-    font-family: "Courier New", monospace;
-    font-size: 0.9rem;
-    color: #d2e0da;
-    margin: 0 0 8px;
+    color: #f4a261;
   }
 
   @media (max-width: 850px) {
@@ -239,7 +227,7 @@
       width: 100%;
       position: static;
       border-right: none;
-      border-bottom: 1px solid #2d6a4f;
+      border-bottom: 1px solid #6b3b1e;
       padding-right: 0;
       padding-bottom: 24px;
     }
@@ -264,7 +252,6 @@
     <nav class="jump-nav">
       <a href="#about">about</a>
       <a href="#projects">projects</a>
-      <a href="#skills">skills</a>
     </nav>
 
     <!-- External & Contact Links -->
@@ -277,9 +264,9 @@
     </nav>
 
     <div class="tools">
-      <div><strong style="color: #95d5b2;">LANGUAGES:</strong><br>Java, C#, Bash, HTML/CSS</div>
-      <div><strong style="color: #95d5b2;">3D &amp; 2D ART:</strong><br>Blender, Krita</div>
-      <div><strong style="color: #95d5b2;">ENGINES &amp; IDEs:</strong><br>Unity, GitHub, JetBrains (Rider, IntelliJ IDEA, WebStorm), VS Code, Eclipse</div>
+      <div><strong style="color: #f4a261;">LANGUAGES:</strong><br>Java, C#, Bash, HTML/CSS</div>
+      <div><strong style="color: #f4a261;">3D &amp; 2D ART:</strong><br>Blender, Krita</div>
+      <div><strong style="color: #f4a261;">ENGINES &amp; IDEs:</strong><br>Unity, GitHub, JetBrains (Rider, IntelliJ IDEA, WebStorm), VS Code, Eclipse</div>
     </div>
   </aside>
 
@@ -366,14 +353,6 @@
         </div>
       </div>
     </article>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills-footer">
-      <span class="label">Skills &amp; Toolkit</span>
-      <p><strong style="color: #95d5b2;">Languages:</strong> Java, C#, Bash, HTML/CSS</p>
-      <p><strong style="color: #95d5b2;">Engines &amp; Dev Tools:</strong> Unity, GitHub, VS Code, Eclipse IDE, JetBrains (IntelliJ IDEA, Rider, WebStorm)</p>
-      <p><strong style="color: #95d5b2;">Art &amp; 3D Modeling:</strong> Krita, Blender</p>
-    </section>
 
   </main>
 
